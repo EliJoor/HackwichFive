@@ -31,9 +31,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MoE-1O-C5t">
-                                <rect key="frame" x="137" y="521" width="141" height="94"/>
+                                <rect key="frame" x="137" y="562" width="141" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fuP-Mk-cNh"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -41,6 +44,7 @@
                     </view>
                     <connections>
                         <outlet property="bottomLable" destination="IjL-gP-7Hk" id="3Ec-7Z-2ew"/>
+                        <outlet property="bottonLable" destination="MoE-1O-C5t" id="Nji-dW-I7C"/>
                         <outlet property="topLable" destination="ANg-cU-ggX" id="7im-YL-MCf"/>
                     </connections>
                 </viewController>
